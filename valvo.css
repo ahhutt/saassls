@@ -1,0 +1,8 @@
+
+
+.v-right {
+    flex: 1; /* السماح للمحتوى أن يأخذ المساحة المتبقية */
+    position: relative;
+    top: -33rem;
+    right: -45rem;
+}

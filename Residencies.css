@@ -1,0 +1,85 @@
+.r-container{
+    overflow: hidden;
+    position: relative;
+}
+.r-head { 
+    margin-bottom: 2rem;
+}
+
+.r-card {
+    display: flex; 
+    gap: 0.6rem;
+    padding: 1rem;
+    max-width: max-content;
+    margin: auto;
+    transition: all 300ms ease-in; 
+}
+
+.r-card > img {
+    width: 100%;
+    max-width: 15rem;
+
+}
+.r-card{
+    gap: 0.6rem;
+    padding: 2rem;
+    border-radius: 10px;
+    max-width: max-content;
+    transition: all 300ms ease-in ;
+    
+}
+.r-card>img{
+    width: 100%;
+    max-width: 15rem;
+}
+.r-card>:nth-child(2)
+{
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+.r-card>:nth-child(3)
+{  
+    font-size: 1.5rem;
+}
+.r-card>:nth-child(4)
+{
+    font-size: 0.7rem;
+    font-weight: 15rem;
+}
+.r-card:hover{
+    scale: 1.025;
+    cursor: pointer;
+    background:
+    linear-gradient(
+    180deg,
+    rgbal 255, 255, 255, e ex,
+    rgba 136, 160, 255, 8.46 217.91%
+    );
+    box-shadow: 0px 72px 49px -51px rgba(136, 160, 255, 0.21);;
+} 
+.r-button {
+    position: absolute;
+    top: 50%; /* يجعل الأزرار في منتصف الـ Swiper */
+    transform: translateY(-50%);
+    z-index: 10; /* لجعل الأزرار فوق الصور */
+}
+
+.r-button button {
+    background-color: #fff; /* لون الخلفية */
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 18px;
+    margin: 0 10px; /* مسافة بين الأزرار */
+    border:none ; /* أزرار دائرية */
+
+    position: relative;
+    top: -160px;
+    left: 70rem;
+    
+}
+
+
+.r-button button:hover {
+    background-color: #f0f0f0; /* تغيير لون الخلفية عند المرور */
+}

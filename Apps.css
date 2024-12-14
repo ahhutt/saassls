@@ -1,0 +1,10 @@
+.App {
+    position: relative;
+    overflow-x: hidden; /* Changed from clip to hidden */
+}
+
+.App > :nth-child(1) {
+    background-color: #222222;
+    position: relative;
+    
+} 
